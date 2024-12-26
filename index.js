@@ -6,7 +6,7 @@
 
   var buttonInnerHTML = this.innerHTML;
 
-    makeSound(buttonInnerHTML);
+     makeSound(buttonInnerHTML);
 
      buttonAnimation(buttonInnerHTML);
 
