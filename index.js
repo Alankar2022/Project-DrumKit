@@ -8,7 +8,7 @@
 
      makeSound(buttonInnerHTML);
 
-     buttonAnimation(buttonInnerHTML);
+     buttonAnimation (buttonInnerHTML);
 
   });
 
