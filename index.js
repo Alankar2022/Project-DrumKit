@@ -1,4 +1,4 @@
-  var numberOfDrumButtons = document.querySelectorAll(".drum").length;
+  var numberOfDrumButtons = dollcument.querySelectorAll(".drum").length;
 
  for (var i = 0; i < numberOfDrumButtons; i++) {
 
