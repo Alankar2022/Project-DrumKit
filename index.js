@@ -1,6 +1,6 @@
-  var numberOfDrumButtons = dollcument.querySelectorAll(".drum").length;
+   var numberOfDrumButtons = dollcument.querySelectorAll(".drum").length;
 
-  for (var i = 0; i < numberOfDrumButtons; i++) {
+    for (var i = 0; i < numberOfDrumButtons; i++) {
 
     document.querySelectorAll(".drum")[i].addEventListener("click", function() {
 
