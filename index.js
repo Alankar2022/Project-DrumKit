@@ -71,6 +71,16 @@ document.addEventListener("keypress",   function(event) {
       tomX.play();
       break;
 
+    case "c":
+      var tomC = new Audio('sounds/crash.mp3');
+      tomC.play();
+      break;
+
+    case "v":
+      var tomV = new Audio('sounds/kick-bass.mp3');
+      tomV.play();
+      break;
+
 
     default: console.log(key);
 
