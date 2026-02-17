@@ -1,4 +1,4 @@
-    var numberOfDrumButtons = dollcument.querySelectorAll(".drum").length;
+    var numberOfDrumButtons = document.querySelectorAll(".drum").length;
 
   for (var i = 0; i < numberOfDrumButtons; i++) {
 
@@ -23,7 +23,7 @@ document.addEventListener("keypress",   function(event) {
 });
 
 
-function makeSound(key) {
+     function makeSound(key) {
 
   switch (key) {
     case "w":
@@ -59,6 +59,26 @@ function makeSound(key) {
     case "l":
       var kick = new Audio('sounds/kick-bass.mp3');
       kick.play();
+      break;
+
+    case "z":
+      var tomZ = new Audio('sounds/tom-2.mp3');
+      tomZ.play();
+      break;
+
+    case "x":
+      var tomX = new Audio('sounds/snare.mp3');
+      tomX.play();
+      break;
+
+    case "c":
+      var tomC = new Audio('sounds/crash.mp3');
+      tomC.play();
+      break;
+
+    case "v":
+      var tomV = new Audio('sounds/kick-bass.mp3');
+      tomV.play();
       break;
 
 
